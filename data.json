@@ -1,0 +1,16 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "name": "Aluilson P.",
+            "email": "aluilson_teste@gmail.com",
+            "password": "12345678"
+        },
+        {
+            "id": 2,
+            "name": "Mônica Geller",
+            "email": "monica_teste@gmail.com",
+            "password": "87654321"
+        }
+    ]
+}

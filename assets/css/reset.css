@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+    font-size: clamp(14px, 2vw, 18px);
+    scroll-behavior: smooth;
+}
+
+@media screen and (min-width: 768px) {
+    :root {
+        font-size: 16px;
+    }
+}
+
+ul, li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: currentColor;
+}
+
+button, fieldset {
+    outline: none;
+    border: none;
+    background-color: #FFFFFF;
+}
+
+button {
+    cursor: pointer;
+}
+
+form label {
+    cursor: pointer;
+}
